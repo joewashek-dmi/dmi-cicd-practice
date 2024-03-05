@@ -16,7 +16,7 @@ public class Greeting_HelloTests
         var greeting = Greeting.Hello(TEST_NAME);
 
 
-        Assert.That(greeting, Is.EqualTo($"Hello {TEST_NAME}!"));
+        Assert.That(greeting, Is.EqualTo($"Hello, {TEST_NAME}!"));
     }
     [Test]
     public void ShouldAskForName()
