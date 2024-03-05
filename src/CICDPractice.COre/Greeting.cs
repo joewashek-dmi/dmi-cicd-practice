@@ -7,6 +7,6 @@ public static class Greeting
     {
         return string.IsNullOrEmpty(name)
             ? "What is your name?"
-            : $"Hello {name}!";
+            : $"Hello, {name}!";
     }
 }
